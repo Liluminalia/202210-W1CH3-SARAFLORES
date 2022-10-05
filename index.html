@@ -4,36 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LISTA - app lista de la compra</title>
+    <title>HOME - app lista de la compra</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>Lista de la compra</h1>
         <nav>
             <ul>
-                <li>Principal</li>
-                <li>Lista</li>
-                <li>Acerca de</li>
+                <li> <a href="./index.html">Principal</a></li>
+                <li> <a href="./lista.html">Lista</a></li>
+                <li> <a href="">Acerca de</a></li>
             </ul>
         </nav>
     </header>
-    <section>
+    <div>
         <div>
-            <div>-</div> 
-            <div>2/3 Comprados</div>
+            <span>-</span> 
+            <span>2/3 Comprados</span>
         </div>
         <div>
+        
             <h2>Editar artículo</h2>
             <form>
                 <input type="text" name="insert_name" id="insert_name" required placeholder="Nombre">
                 <input type="number" name="prices" id="insert_prices" required placeholder="Precio">
                 <input type="submit" name="sending" id="sending_button" value="Modificar">
             </form>
+            
         </div>
-        
-    </section>
+    </div>
    <footer>
-         <!-- css validation  -->
+    <p>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                src="http://jigsaw.w3.org/css-validator/images/vcss"
+                alt="¡CSS Válido!" />
+        </a>
+    </p>
+           
    </footer>
 
 </body>
