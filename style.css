@@ -77,11 +77,14 @@ div div:nth-of-type(2n) span:first-child >ul li{
     display: inline-flex;
 }
 div div:nth-of-type(2n) span:first-child >ul li:nth-of-type(2n+1){
-    float: left;
-    margin: 0 auto;
+    text-align: left;
+    margin: auto;
+    width: 100%;
 }
 div div:nth-of-type(2n) span:first-child >ul li:nth-of-type(2n){
     text-align: right;
+    margin: auto;
+    width: 100%;
 }
 div div:nth-of-type(2n) span:first-child >ul li:nth-of-type(2n) p{
     display: inline;
