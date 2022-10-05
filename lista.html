@@ -4,42 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOME - app lista de la compra</title>
+    <title>LISTA - app lista de la compra</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>Lista de la compra</h1>
         <nav>
             <ul>
-                <li>Principal</li>
-                <li>Lista</li>
-                <li>Acerca de</li>
+                <li> <a href="./index.html">Principal</a></li>
+                <li> <a href="./lista.html">Lista</a></li>
+                <li> <a href="">Acerca de</a></li>
             </ul>
         </nav>
     </header>
-    <section>
+    <div>
         <div>
-            <div>+</div> 
-            <div>2/3 Comprados</div>
+            <span>+</span> 
+            <span>2/3 Comprados</span>
         </div>
         <div>
-            <input type="checkbox" name="articulos de compra" id="">Pan
-            <input type="checkbox" name="articulos de compra" id="">Azucar
-            <input type="checkbox" name="articulos de compra" id="">Leche
+            <span>
+                <ul>
+                    <li><input type="checkbox" name="articulo de compra 1" id="bread">Pan</li>
+                    <li>0,75€</li>
+                    
+                </ul>
+                <ul>
+                    <li><input type="checkbox" name="articulo de compra 2" id="sugar">Azucar</li>
+                    
+                    <li>1</li>
+                    
+                </ul>
+                <ul>
+                    <li><input type="checkbox" name="articulo de compra 3" id="milk">Leche</li>
+                    <li>1,20€</li>
+                </ul>
+            </span>
+           <p></p>
+           <span>
+                <p>1,95€</p>
+            </span>
         </div>
-       <div>
-        <ul>
-            <li>0,75€</li>
-            <li></li>
-            <li>1,20€</li>
-        </ul>
-       </div>
-       <div>
-            <p>1,95€</p>
-        </div>
-    </section>
+        
+    </div>
    <footer>
-         <!-- css validation  -->
+    <p>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                src="http://jigsaw.w3.org/css-validator/images/vcss"
+                alt="¡CSS Válido!" />
+        </a>
+    </p>
+           
    </footer>
 
 </body>
