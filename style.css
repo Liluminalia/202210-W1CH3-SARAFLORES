@@ -65,6 +65,8 @@ nav ul :nth-of-type(2n){
 }
 div div:first-child span:first-child{
     color:#D47851;
+    font-size: 1em;
+    font-weight: bold;
     background-color: #54178C ;
     border-radius: 50%;
     border-width: 1px;
