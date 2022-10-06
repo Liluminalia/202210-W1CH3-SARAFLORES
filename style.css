@@ -9,7 +9,7 @@ header{
     background-color: #5169A7;
     display: flex;
     align-items: center;
-    padding: 0 auto;
+    padding: 0 ;
     margin:0 auto;
     width: 100%;
 
@@ -35,7 +35,7 @@ span+span{
 }
 div{
     background-color:  #D1BEAD;
-    display: inline-flexbox;
+    display: inline-flex;
 }
 div:first-child{
     background-color:  #D09D72;
@@ -43,7 +43,7 @@ div:first-child{
 h1{
     font-size: 1rem;
 }
-span ul:first-child > :nth-of-type(2n+1){
+div ul:first-child > :nth-of-type(2n+1){
     text-decoration: line-through;
     color: black;
 }
@@ -72,27 +72,27 @@ div div:first-child span:first-child{
     border-width: 1px;
     
 }
-div div:nth-of-type(2n) span:first-child >ul{
+div div:nth-of-type(2n) div:first-child >ul{
     display: flex;
 }
-div div:nth-of-type(2n) span:first-child >ul li{
+div div:nth-of-type(2n) div:first-child >ul li{
     display: inline-flex;
 }
-div div:nth-of-type(2n) span:first-child >ul li:nth-of-type(2n+1){
+div div:nth-of-type(2n) div:first-child >ul li:nth-of-type(2n+1){
     text-align: left;
     margin: auto;
     width: 100%;
 }
-div div:nth-of-type(2n) span:first-child >ul li:nth-of-type(2n){
+div div:nth-of-type(2n) div:first-child >ul li:nth-of-type(2n){
     text-align: right;
     margin: auto;
     width: 100%;
 }
-div div:nth-of-type(2n) span:first-child >ul li:nth-of-type(2n) p{
+div div:nth-of-type(2n) div:first-child >ul li:nth-of-type(2n) p{
     display: inline;
     font-weight: bold;
 }
-div div:nth-of-type(2n) span:first-child >ul:nth-of-type(2n+1) :hover{
+div div:nth-of-type(2n) div:first-child >ul:nth-of-type(2n+1) :hover{
     color:  #D47851;
 }
 
