@@ -35,10 +35,15 @@ span+span{
 }
 div{
     background-color:  #D1BEAD;
+    display: block;
+}
+body>div>div:first-child{
+    background-color:  #D09D72;
     display: inline-flex;
 }
-div:first-child{
-    background-color:  #D09D72;
+body>div>div:first-child>span{
+    text-align: right;
+    align-items: right;
 }
 h1{
     font-size: 1rem;
@@ -52,6 +57,9 @@ div ul:first-child > :nth-of-type(2n+1){
 }
 div p{
     text-align: right;
+}
+div{
+    display: block;
 }
 
 div>p{
@@ -73,10 +81,10 @@ div div:first-child span:first-child{
     
 }
 div div:nth-of-type(2n) div:first-child >ul{
-    display: flex;
+    display: block;
 }
 div div:nth-of-type(2n) div:first-child >ul li{
-    display: inline-flex;
+    display: block;
 }
 div div:nth-of-type(2n) div:first-child >ul li:nth-of-type(2n+1){
     text-align: left;
